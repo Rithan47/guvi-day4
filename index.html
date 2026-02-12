@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍔 Foodie Paradise 🍕</h1>
+        <input type="text" id="search" placeholder="Search your favorite dish...">
+    </header>
+
+    <main>
+        <div class="menu-container" id="menu">
+            <!-- Food items will be populated here via JS -->
+        </div>
+    </main>
+
+    <!-- Food Details Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span id="close">&times;</span>
+            <h2 id="popup-name"></h2>
+            <img id="popup-image" src="" alt="">
+            <p id="popup-description"></p>
+            <p id="popup-price"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
